@@ -16,7 +16,6 @@ int main(){
         printf("Mat2 is Not a Magic Square\n");
 
     int arr[3][3];
-                //  1 2 3 4 5 6 7 8 9
     srand(time(NULL));
 
     int count = 0;
@@ -37,10 +36,11 @@ int main(){
     printf("\n");
 
     for(int i = 0; i < 3; i++){
+         printf("[ ");
         for(int j = 0; j < 3; j++){
             printf("%d ", arr[i][j]);
         }
-        printf("\n");
+        printf("]\n");
     }
     printf("\nTotal Number of Squares Generated: %d\n", count);
 }
