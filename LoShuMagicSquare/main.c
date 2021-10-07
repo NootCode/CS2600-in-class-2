@@ -43,6 +43,8 @@ int main(){
         printf("]\n");
     }
     printf("\nTotal Number of Squares Generated: %d\n", count);
+
+    return EXIT_SUCCESS;
 }
 
 int isMagicSquare(int mat[3][3]){
